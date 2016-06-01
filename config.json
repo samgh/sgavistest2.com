@@ -1,0 +1,16 @@
+{		
+ 	"configVersion": "1",		
+ 	"deviceDetected": false,		
+ 	"https": false,		
+ 	"liveSite": false,		
+ 	"locales": ["en"],		
+ 	"templateVersion": 3,		
+ 	"features": [		
+ 		{		
+ 			"name": "Geocode",		
+ 			"geocodeIP": {		
+ 				"urlTemplate": "test"		
+ 			}		
+ 		}		
+ 	]		
+ }
