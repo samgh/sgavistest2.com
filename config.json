@@ -35,7 +35,7 @@
 							"field": "State",
 							"order": "ascending"
 						},
-						"limit": 10,
+						"limit": 10
 					}
 				],
 				"locationPageSet": "Locations",
