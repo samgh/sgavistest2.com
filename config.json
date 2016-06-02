@@ -34,7 +34,8 @@
 						"orderBy": {
 							"field": "State",
 							"order": "ascending"
-						}
+						},
+						"limit": 10,
 					}
 				],
 				"locationPageSet": "Locations",
