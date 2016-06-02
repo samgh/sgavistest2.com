@@ -34,8 +34,16 @@
 						"orderBy": {
 							"field": "State",
 							"order": "ascending"
-						},
-						"limit": 10
+						}
+					},
+					{
+						"urlTemplate": "desktop.urls.directory1Location",
+						"template": "desktop.directory.locationList",
+						"field": "Locations",
+						"orderBy": {
+							"field": "Locations",
+							"order": "ascending"
+						}
 					}
 				],
 				"locationPageSet": "Locations",
