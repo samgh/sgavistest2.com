@@ -11,6 +11,17 @@
  			"geocodeIP": {		
  				"urlTemplate": "desktop.urls.geocode"		
  			}		
- 		}		
+ 		},
+ 				{
+			"name": "Locations",
+			"locationPageSet": {
+				"urlTemplate": "desktop.urls.locationPageSet1",
+				"template": "desktop.location.default",
+				"outputFormat": ["Html", "Json"],
+				"locationScope" : {
+					"savedSearch" : "foo"
+				}
+			}
+		}
  	]		
  }
