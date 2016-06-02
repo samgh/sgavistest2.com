@@ -12,7 +12,7 @@
  				"urlTemplate": "desktop.urls.geocode"		
  			}		
  		},
- 				{
+ 		{
 			"name": "Locations",
 			"locationPageSet": {
 				"urlTemplate": "desktop.urls.locationPageSet1",
@@ -23,7 +23,7 @@
 				}
 			}
 		},
-				{
+		{
 			"name": "Location Directory 1",
 			"locationDirectory": {
 				"levels": [
@@ -33,15 +33,6 @@
 						"field": "State",
 						"orderBy": {
 							"field": "State",
-							"order": "ascending"
-						}
-					},
-					{
-						"urlTemplate": "desktop.urls.directory1Location",
-						"template": "desktop.directory.locationList",
-						"field": "Locations",
-						"orderBy": {
-							"field": "Locations",
 							"order": "ascending"
 						}
 					}
