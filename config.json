@@ -37,6 +37,15 @@
 						}
 					},
 					{
+						"urlTemplate": "desktop.urls.cities",
+						"template": "desktop.directory.cityList", 
+						"field": "City",
+						"orderBy": {
+							"field": "City",
+							"order": "ascending"
+						}
+					},
+					{
 						"urlTemplate": "desktop.urls.directory1Location",
 						"template": "desktop.directory.locationList",
 						"field": "Locations",
