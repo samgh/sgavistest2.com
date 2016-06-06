@@ -5,7 +5,7 @@
  	"liveSite": false,		
  	"locales": ["en"],		
  	"templateVersion": 3,		
- 	"features: [		
+ 	"features": [		
  		{		
  			"name": "Geocode",		
  			"geocodeIP": {		
