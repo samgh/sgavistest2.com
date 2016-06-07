@@ -11,53 +11,6 @@
  			"geocodeIP": {		
  				"urlTemplate": "desktop.urls.geocode"		
  			}		
- 		},
- 		{
-			"name": "Locations",
-			"locationPageSet": {
-				"urlTemplate": "desktop.urls.locationPageSet1",
-				"template": "desktop.location.default",
-				"outputFormat": ["Html", "Json"],
-				"locationScope" : {
-					"savedSearch" : "foo"
-				}
-			}
-		},
-		{
-			"name": "Location Directory 1",
-			"locationDirectory": {
-				"levels": [
-					{
-						"urlTemplate": "desktop.urls.directory1State",
-						"template": "desktop.directory.stateList",
-						"field": "State",
-						"orderBy": {
-							"field": "State",
-							"order": "ascending"
-						}
-					},
-					{
-						"urlTemplate": "desktop.urls.cities",
-						"template": "desktop.directory.cityList", 
-						"field": "City",
-						"orderBy": {
-							"field": "City",
-							"order": "ascending"
-						}
-					},
-					{
-						"urlTemplate": "desktop.urls.directory1Location",
-						"template": "desktop.directory.locationList",
-						"field": "Locations",
-						"orderBy": {
-							"field": "Locations",
-							"order": "ascending"
-						}
-					}
-				],
-				"locationPageSet": "Locations",
-				"outputFormat": ["Html"]
-			}
 		}
  	]		
  }
