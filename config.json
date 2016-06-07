@@ -3,7 +3,7 @@
  	"deviceDetected": false,		
  	"https": false,		
  	"liveSite": false,		
- 	"locales": ["en"],		
+ 	"locales": ["en", "abc"],		
  	"templateVersion": 3,		
  	"features": [		
  		{		
