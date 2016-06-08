@@ -11,6 +11,12 @@
  			"geocodeIP": {		
  				"urlTemplate": "desktop.urls.geocode"		
  			}		
+		},
+		{		
+ 			"name": "Geocode",		
+ 			"geocodeIP": {		
+ 				"urlTemplate": "desktop.urls.geocode"		
+ 			}		
 		}
  	]		
  }
