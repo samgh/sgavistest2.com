@@ -13,7 +13,7 @@
  			}		
 		},
 		{		
- 			"name": "Geocode",		
+ 			"name": "Geocode 2",		
  			"geocodeIP": {		
  				"urlTemplate": "desktop.urls.geocode2"		
  			}		
