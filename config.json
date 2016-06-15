@@ -29,7 +29,7 @@
 				"levels": [
 					{
 						"urlTemplate": "desktop.urls.directory1State",
-						"template": "desktop.directory.test",
+						"template": "desktop.directory.genericList",
 						"field": "Meals",
 						"orderBy": {
 							"field": "Meals",
