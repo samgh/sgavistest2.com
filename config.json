@@ -36,9 +36,9 @@
 					{
 						"urlTemplate": "desktop.urls.directory1State",
 						"template": "desktop.directory.stateList",
-						"field": "3728",
+						"field": "Cuisine",
 						"orderBy": {
-							"field": "3728",
+							"field": "Cuisine",
 							"order": "ascending"
 						}
 					},
