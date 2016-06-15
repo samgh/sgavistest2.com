@@ -3,13 +3,13 @@
  	"deviceDetected": false,		
  	"https": false,		
  	"liveSite": false,		
- 	"locales": ["en", "bcd"],		
+ 	"locales": ["en"],		
  	"templateVersion": 3,		
  	"features": [		
  		{		
  			"name": "Geocode",		
  			"geocodeIP": {		
- 				"urlTemplate": "desktop.urls.geocode"		
+ 				"urlTemplate": "desktop.urls.geocodeip"		
  			}		
 		},
 		{
