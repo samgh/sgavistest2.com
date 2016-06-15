@@ -1,6 +1,20 @@
 {namespace desktop.urls}
 
 /**
+ */
+{template .xmlSitemap}
+sitemap.xml
+{/template}
+
+{template .geocodeip}
+gc.json
+{/template}
+
+{template .reversegeocode}
+rgc.json
+{/template}
+
+/**
  * @param id
  * @param state
  * @param city
@@ -11,10 +25,9 @@
 {/template}
 
 /**
- * @param state
  */
-{template .cities}
-{$state|latin:true|other:'-'|spaces:'-'|casing:'lower'}city.html
+{template .directory1State}
+index.html
 {/template}
 
 /**
@@ -24,16 +37,10 @@
 {$state|latin:true|other:'-'|spaces:'-'|casing:'lower'}.html
 {/template}
 
-/**
- */
-{template .geocode}
-test
+{template .search1}
+search.html
 {/template}
 
-{template .geocode2}
-test2
-{/template}
-
-{template .directory1State}
-index.html
+{template .autocomplete}
+autocomplete
 {/template}
