@@ -30,9 +30,9 @@
 					{
 						"urlTemplate": "desktop.urls.directory1State",
 						"template": "desktop.directory.stateList",
-						"field": "Cuisine",
+						"field": "State",
 						"orderBy": {
-							"field": "Cuisine",
+							"field": "State",
 							"order": "ascending"
 						}
 					},
