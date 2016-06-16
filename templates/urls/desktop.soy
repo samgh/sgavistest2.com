@@ -25,9 +25,25 @@ rgc.json
 {/template}
 
 /**
+ * @param id
+ * @param state
+ * @param city
+ * @param address1
+ */
+{template .locationPageSet2}
+lps2/{$state|latin:true|other:'-'|spaces:'-'|casing:'lower'}/{$city|latin:true|other:'-'|spaces:'-'|casing:'lower'}/{$address1|spaces:'-'|latin:true|other:'-'|casing:'lower'}-{$id}
+{/template}
+
+/**
  */
 {template .directory1State}
-index.html
+index
+{/template}
+
+/**
+ */
+{template .directory2State}
+lps2/index
 {/template}
 
 /**
@@ -35,6 +51,13 @@ index.html
  */
 {template .directory1Location}
 {$state|latin:true|other:'-'|spaces:'-'|casing:'lower'}
+{/template}
+
+/**
+ * @param state
+ */
+{template .directory2Location}
+lps2/{$state|latin:true|other:'-'|spaces:'-'|casing:'lower'}
 {/template}
 
 {template .search1}
