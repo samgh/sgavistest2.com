@@ -19,7 +19,7 @@
 				"template": "desktop.location.default",
 				"outputFormat": ["Html", "Json"],
 				"locationScope" : {
-					"savedSearch" : "ny"
+					"savedSearch" : "AK and NY"
 				}
 			}
 		},
@@ -30,7 +30,7 @@
 				"template": "desktop.location.default",
 				"outputFormat": ["Html", "Json"],
 				"locationScope" : {
-					"savedSearch" : "ak1"
+					"savedSearch" : "AK folder"
 				}
 			}
 		},
