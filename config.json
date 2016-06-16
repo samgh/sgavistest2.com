@@ -19,7 +19,7 @@
 				"template": "desktop.location.default",
 				"outputFormat": ["Html", "Json"],
 				"locationScope" : {
-					"savedSearch" : "ak"
+					"savedSearch" : "ak1"
 				}
 			}
 		},
