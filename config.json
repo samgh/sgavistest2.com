@@ -57,7 +57,7 @@
 						}
 					}
 				],
-				"locationPageSet": "Locations ",
+				"locationPageSet": "Locations a",
 				"outputFormat": ["Html", "Json"]
 			}
 		},
