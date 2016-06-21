@@ -10,7 +10,6 @@
  * @param stateName
  * @param postalCode
  * @param country Abbreviated format of a country
- * @param countryName
  * @param latitude
  * @param longitude
  * @param description
@@ -44,7 +43,7 @@
     <link rel="stylesheet" type="text/css" href="{$baseUrl}css/location/default.css">
   </head>
   <body>
-  {$state}<br />{$stateName}<br />{$country}<br />{$countryName}<br />
+  {$state}<br />{$stateName}<br />{$country}<br />
     {call helpers.header data="all" /}
     <div class="wide-wrapper">
       <div id="cover-photo" {if length($gallery) > 0}style="background:url({$gallery[0].sizes[0].url}) no-repeat; background-size: cover;"{/if}>
