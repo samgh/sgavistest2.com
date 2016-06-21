@@ -39,7 +39,7 @@
         {let $items: listItems($list.sections) /}
         {foreach $item in $items}
           <li class="staff-bio js-staff-bio" {if index($item) > 1}style="display: none;"{/if}>
-            {if $item.photo and $item.photo.sizes[0].url}
+            {if $item.photo and $item.photo.sizes[0] and $item.photo.sizes[0].url}
               <div class="bio-photo">
                  {let $height: $item.photo.sizes[0].height /}
                  {let $width: $item.photo.sizes[0].width /}
