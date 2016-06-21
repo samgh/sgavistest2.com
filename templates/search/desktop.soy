@@ -9,10 +9,6 @@
  * @param resultsPerPage
  * @param locale
  * @param isPrimaryLocale
- * @param state
- * @param stateName
- * @param country
- * @param countryName
  */
 {template .default}
   <!DOCTYPE html>
@@ -24,7 +20,6 @@
       <link rel="stylesheet" type="text/css" href="{$baseUrl}css/search/default.css">
     </head>
     <body>
-     {$state}<br />{$stateName}<br />{$country}<br />{$countryName}<br />
       {call helpers.header data="all"}
         {param baseUrl: $baseUrl /}
         {param locale: $locale /}
