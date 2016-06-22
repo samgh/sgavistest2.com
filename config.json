@@ -99,9 +99,9 @@
 					{
 						"urlTemplate": "desktop.urls.directory1State",
 						"template": "desktop.directory.stateList",
-						"field": "State",
+						"field": "State1",
 						"orderBy": {
-							"field": "State",
+							"field": "State1",
 							"order": "ascending"
 						}
 					},
