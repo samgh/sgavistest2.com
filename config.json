@@ -101,7 +101,7 @@
 						"template": "desktop.directory.stateList",
 						"field": "State",
 						"orderBy": {
-							"field": "State1",
+							"field": "State",
 							"order": "ascending"
 						}
 					},
