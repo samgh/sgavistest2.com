@@ -80,7 +80,7 @@
 				},
 				"searchFields": [
 					{
-						"field": "State",
+						"field": "GoogleCoverPhoto",
 						"param": "state",
 						"mode": "EQUALS"
 					},
@@ -99,7 +99,7 @@
 					{
 						"urlTemplate": "desktop.urls.directory1State",
 						"template": "desktop.directory.stateList",
-						"field": "State1",
+						"field": "State",
 						"orderBy": {
 							"field": "State1",
 							"order": "ascending"
