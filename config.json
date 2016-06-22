@@ -85,7 +85,7 @@
 						"mode": "EQUALS"
 					},
 					{
-						"field": "With Spaces1",
+						"field": "With Spaces",
 						"param": "ws",
 						"mode": "CONTAINS"
 					}
