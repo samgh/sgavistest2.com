@@ -19,9 +19,10 @@ rgc.json
  * @param state
  * @param city
  * @param address1
+ * @param isCollision
  */
 {template .locationPageSet1}
-{$state|latin:true|other:'-'|spaces:'-'|casing:'lower'}/{$city|latin:true|other:'-'|spaces:'-'|casing:'lower'}/{$address1|spaces:'-'|latin:true|other:'-'|casing:'lower'}-{$id}
+{$state|latin:true|other:'-'|spaces:'-'|casing:'lower'}/{$city|latin:true|other:'-'|spaces:'-'|casing:'lower'}/{$address1|spaces:'-'|latin:true|other:'-'|casing:'lower'}-{$id}-{$isCollision}
 {/template}
 
 /**
