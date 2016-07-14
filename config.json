@@ -34,6 +34,7 @@
 				"locationScope" : {
 					"savedSearch" : "foo"
 				}
+				"pageUrlCustomField": "url-test"
 			}
 		},
 		{
