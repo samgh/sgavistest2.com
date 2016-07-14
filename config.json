@@ -19,10 +19,17 @@
 			}
 		},
 		{
-			"name": "My Sitemap",
-			"sitemap": {
+			"name": "XML Sitemap",
+			"xmlsitemap": {
 				"urlTemplate": "desktop.urls.xmlSitemap",
 				"excludeStaticFiles": true
+			}
+		},
+		{
+			"name": "HTML Sitemap",
+			"htmlsitemap": {
+				"urlTemplate": "desktop.urls.htmlSitemap",
+				"template": "desktop.sitemap.default"
 			}
 		},
 		{
@@ -34,7 +41,20 @@
 				"locationScope" : {
 					"savedSearch" : "foo"
 				},
-				"pageUrlCustomField": "url-test"
+				"urlAliases": [
+					"desktop.urls.locationPageSetAlias1"	
+				]
+			}
+		},
+		{
+			"name": "Locations in Canada",
+			"locationPageSet": {
+				"urlTemplate": "desktop.urls.locationPageSet2",
+				"template": "desktop.location.default",
+				"outputFormat": ["Html", "Json"],
+				"locationScope" : {
+					"savedSearch" : "canada"
+				}
 			}
 		},
 		{
@@ -81,7 +101,7 @@
 				},
 				"searchFields": [
 					{
-						"field": "GoogleCoverPhoto",
+						"field": "State",
 						"param": "state",
 						"mode": "EQUALS"
 					},
@@ -117,6 +137,24 @@
 					}
 				],
 				"locationPageSet": "Locations",
+				"outputFormat": ["Html"]
+			}
+		},
+		{
+			"name": "Location Directory 2",
+			"locationDirectory": {
+				"levels": [
+					{
+						"urlTemplate": "desktop.urls.directory2Location",
+						"template": "desktop.directory.locationList",
+						"field": "Locations",
+						"orderBy": {
+							"field": "Locations",
+							"order": "ascending"
+						}
+					}
+				],
+				"locationPageSet": "Locations in Canada",
 				"outputFormat": ["Html"]
 			}
 		},
