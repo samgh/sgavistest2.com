@@ -44,7 +44,7 @@
 				"urlAliases": [
 					"desktop.urls.locationPageSetAlias1"	
 				],
-				"pageUrlCustomField": "test-url"
+				"pageUrlCustomField": "url-test"
 			}
 		},
 		{
