@@ -39,7 +39,7 @@
 				"template": "desktop.location.default",
 				"outputFormat": ["Html", "Json"],
 				"locationScope" : {
-					"savedSearch" : "international"
+					"savedSearch" : "foo"
 				},
 				"urlAliases": [
 					"desktop.urls.locationPageSetAlias1"	
