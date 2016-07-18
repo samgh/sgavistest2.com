@@ -48,17 +48,6 @@
 			}
 		},
 		{
-			"name": "InternationalLocations",
-			"locationPageSet": {
-				"urlTemplate": "desktop.urls.locationPageSet2",
-				"template": "desktop.location.default",
-				"outputFormat": ["Html", "Json"],
-				"locationScope" : {
-					"savedSearch" : "international"
-				}
-			}
-		},
-		{
 			"name": "Locations in Canada",
 			"locationPageSet": {
 				"urlTemplate": "desktop.urls.locationPageSet2",
