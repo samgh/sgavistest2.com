@@ -39,12 +39,23 @@
 				"template": "desktop.location.default",
 				"outputFormat": ["Html", "Json"],
 				"locationScope" : {
-					"savedSearch" : "international"
+					"savedSearch" : "foo"
 				},
 				"urlAliases": [
 					"desktop.urls.locationPageSetAlias1"	
 				],
 				"pageUrlCustomField": "url-test"
+			}
+		},
+		{
+			"name": "InternationalLocations",
+			"locationPageSet": {
+				"urlTemplate": "desktop.urls.locationPageSet2",
+				"template": "desktop.location.default",
+				"outputFormat": ["Html", "Json"],
+				"locationScope" : {
+					"savedSearch" : "international"
+				}
 			}
 		},
 		{
