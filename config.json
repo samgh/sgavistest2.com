@@ -39,7 +39,7 @@
 				"template": "desktop.location.default",
 				"outputFormat": ["Html", "Json"],
 				"locationScope" : {
-					"savedSearch" : "foo"
+					"savedSearch" : "russian state"
 				},
 				"urlAliases": [
 					"desktop.urls.locationPageSetAlias1"	
