@@ -27,7 +27,7 @@ rgc.json
  * @param address1
  */
 {template .locationPageSet1}
-{$state|latin:false|other:'-'|spaces:'-'|casing:'lower'}/{$city|latin:true|other:'-'|spaces:'-'|casing:'lower'}/{$address1|spaces:'-'|latin:true|other:'-'|casing:'lower'}-{$id}.html
+{$state|latin:true|other:'-'|spaces:'-'|casing:'lower'|kind:'uri'}/{$city|latin:true|other:'-'|spaces:'-'|casing:'lower'}/{$address1|spaces:'-'|latin:true|other:'-'|casing:'lower'}-{$id}.html
 {/template}
 
 /**
