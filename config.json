@@ -9,7 +9,7 @@
 		{
 			"name": "Geocode IP",
 			"geocodeIP": {
-				"urlTemplate": "desktop.urls.geocodeip"
+				"urlTemplate": "desktop.urls.geocodeips"
 			}
 		},
 		{
