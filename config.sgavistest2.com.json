@@ -1,0 +1,169 @@
+{
+	"configVersion": "1",
+	"deviceDetected": false,
+	"https": false,
+	"liveSite": false,
+	"locales": ["en"],
+	"templateVersion": 3,
+	"features": [
+		{
+			"name": "Geocode IP",
+			"geocodeIP": {
+				"urlTemplate": "desktop.urls.geocodeip"
+			}
+		},
+		{
+			"name": "Reverse Geocode",
+			"reverseGeocode": {
+				"urlTemplate": "desktop.urls.reversegeocode"
+			}
+		},
+		{
+			"name": "XML Sitemap",
+			"xmlsitemap": {
+				"urlTemplate": "desktop.urls.xmlSitemap",
+				"excludeStaticFiles": true
+			}
+		},
+		{
+			"name": "HTML Sitemap",
+			"htmlsitemap": {
+				"urlTemplate": "desktop.urls.htmlSitemap",
+				"template": "desktop.sitemap.default"
+			}
+		},
+		{
+			"name": "Locations",
+			"locationPageSet": {
+				"urlTemplate": "desktop.urls.locationPageSet1",
+				"template": "desktop.location.default",
+				"outputFormat": ["Html", "Json"],
+				"locationScope" : {
+					"savedSearch" : "ak"
+				},
+				"urlAliases": [
+					"desktop.urls.locationPageSetAlias1"	
+				],
+				"pageUrlCustomField": "url-test"
+			}
+		},
+		{
+			"name": "Locations in Canada",
+			"locationPageSet": {
+				"urlTemplate": "desktop.urls.locationPageSet2",
+				"template": "desktop.location.default",
+				"outputFormat": ["Html", "Json"],
+				"locationScope" : {
+					"savedSearch" : "canada"
+				}
+			}
+		},
+		{
+			"name": "Autocomplete 1",
+			"autocomplete": {
+				"urlTemplate": "desktop.urls.autocomplete",
+				"locationPageSet": "Locations",
+				"fields": [
+					{
+						"field": "State",
+						"param": "state",
+						"mode": "EQUALS"
+					},
+					{
+						"field": "With Spaces",
+						"param": "ws",
+						"mode": "CONTAINS"
+					}
+				]
+			}
+		},
+		{
+			"name": "Searcher 1",
+			"search": {
+				"locationPageSet": "Locations",
+				"locationScopeOverride" : {
+					"savedSearch" : "foo"
+				},
+				"urlTemplate": "desktop.urls.search1",
+				"template": "desktop.search.default",
+				"queryParam": "q",
+				"maxRadiusParam": {
+					"name": "r",
+					"default": 50
+				},
+				"pageResultParam": {
+					"name": "per",
+					"default": 10
+				},
+				"pageToShowParam": "p",
+				"totalResultParam": {
+					"name": "max",
+					"default": 50
+				},
+				"searchFields": [
+					{
+						"field": "State",
+						"param": "state",
+						"mode": "EQUALS"
+					},
+					{
+						"field": "With Spaces",
+						"param": "ws",
+						"mode": "CONTAINS"
+					}
+				]
+			}
+		},
+		{
+			"name": "Location Directory 1",
+			"locationDirectory": {
+				"levels": [
+					{
+						"urlTemplate": "desktop.urls.directory1State",
+						"template": "desktop.directory.stateList",
+						"field": "State",
+						"orderBy": {
+							"field": "State",
+							"order": "ascending"
+						}
+					},
+					{
+						"urlTemplate": "desktop.urls.directory1Location",
+						"template": "desktop.directory.locationList",
+						"field": "Locations",
+						"orderBy": {
+							"field": "Locations",
+							"order": "ascending"
+						}
+					}
+				],
+				"locationPageSet": "Locations",
+				"outputFormat": ["Html"]
+			}
+		},
+		{
+			"name": "Location Directory 2",
+			"locationDirectory": {
+				"levels": [
+					{
+						"urlTemplate": "desktop.urls.directory2Location",
+						"template": "desktop.directory.locationList",
+						"field": "Locations",
+						"orderBy": {
+							"field": "Locations",
+							"order": "ascending"
+						}
+					}
+				],
+				"locationPageSet": "Locations in Canada",
+				"outputFormat": ["Html"]
+			}
+		},
+		{
+			"name": "Publishing Pause for Testing",
+			"pause_publishing": {
+				"time": 60000
+			}
+		}
+	]
+}
