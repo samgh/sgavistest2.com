@@ -112,7 +112,7 @@
 						"mode": "CONTAINS"
 					}
 				],
-				"disableReverseIpSearch": true
+				"disableReverseIpSearch": false
 			}
 		},
 		{
