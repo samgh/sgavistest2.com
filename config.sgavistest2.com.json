@@ -116,6 +116,15 @@
 			}
 		},
 		{
+			"name": "Searcher 2",
+			"search": {
+				"locationPageSet": "Locations",
+				"urlTemplate": "desktop.urls.search2",
+				"template": "desktop.search.default",
+				"disableReverseIpSearch": false
+			}
+		},
+		{
 			"name": "Location Directory 1",
 			"locationDirectory": {
 				"levels": [
