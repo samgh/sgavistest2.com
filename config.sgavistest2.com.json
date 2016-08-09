@@ -111,7 +111,8 @@
 						"param": "ws",
 						"mode": "CONTAINS"
 					}
-				]
+				],
+				"disableReverseIpSearch": true
 			}
 		},
 		{
