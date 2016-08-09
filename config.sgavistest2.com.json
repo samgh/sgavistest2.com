@@ -112,7 +112,8 @@
 						"mode": "CONTAINS"
 					}
 				]
-			}
+			},
+			"disableReverseIpSearch": true
 		},
 		{
 			"name": "Searcher 2",
