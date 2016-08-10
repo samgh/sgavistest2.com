@@ -111,9 +111,9 @@
 						"param": "ws",
 						"mode": "CONTAINS"
 					}
-				]
-			},
-			"disableReverseIpSearch": true
+				],
+				"disableReverseIpSearch": true
+			}
 		},
 		{
 			"name": "Searcher 2",
