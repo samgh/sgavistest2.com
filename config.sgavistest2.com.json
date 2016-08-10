@@ -113,7 +113,7 @@
 					}
 				]
 			},
-			"disableReverseIpSearch": false
+			"disableReverseIpSearch": true
 		},
 		{
 			"name": "Searcher 2",
