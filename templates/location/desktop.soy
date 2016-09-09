@@ -30,6 +30,7 @@
  * @param bios
  * @param nearbyLocations
  * @param custom
+ * @param featureId
  * @param? listings
  */
 {template .default}
@@ -42,7 +43,7 @@
     <link rel="stylesheet" type="text/css" href="//yui.yahooapis.com/3.14.1/build/cssreset/cssreset-min.css">
     <link rel="stylesheet" type="text/css" href="{$baseUrl}css/location/default.css">
   </head>
-  {$custom['4937']}
+  { $featureId }
   <body>
     {call helpers.header data="all" /}
     <div class="wide-wrapper">
