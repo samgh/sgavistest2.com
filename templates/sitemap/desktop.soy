@@ -6,6 +6,7 @@
  * @param logo The business logo that is displayed in the header
  * @param baseUrl the base url of current directory page
  * @param siteTree
+ * @param featureId
  */
 {template .default}
   <!DOCTYPE html>
@@ -16,6 +17,7 @@
       <link rel="stylesheet" type="text/css" href="{$baseUrl}css/directory/default.css">
     </head>
     <body>
+    { $featureId }
       {call helpers.header data="all" /}
       <div id="content" class="dir-container inner-wrap generic-wrapper">
         {call helpers.sitemap.showTree data="all" /}
