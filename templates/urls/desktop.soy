@@ -20,12 +20,7 @@ gc.json
 rgc.json
 {/template}
 
-/**
- * @param id
- * @param state
- * @param city
- * @param address1
- */
+
 {template .locationPageSet1}
 {$state|latin:false|spaces:'-'|casing:'lower'}/{$city|latin:true|other:'-'|spaces:'-'|casing:'lower'}/{$address1|spaces:'-'|latin:true|other:'-'|casing:'lower'}-{$id}.html
 {/template}
